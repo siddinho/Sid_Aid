@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sid_Aid</string>
+    <string name="emergency">Emergency</string>
+    <string name="reminder">Reminder</string>
+    <string name="nearme">Near Me</string>
+    <string name="disease">Disease Prediction</string>
+</resources>
