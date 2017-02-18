@@ -4,4 +4,6 @@
     <string name="reminder">Reminder</string>
     <string name="nearme">Near Me</string>
     <string name="disease">Disease Prediction</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <string name="locationtxt">Location Co-ordinates</string>
 </resources>
