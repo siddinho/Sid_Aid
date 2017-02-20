@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFCCBC"
+    android:background="#6677cd"
     android:orientation="vertical"
 
 
@@ -14,19 +14,19 @@
     <ViewFlipper
         android:id="@+id/viewflipper1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="220dp"
         android:autoStart="true"
         android:flipInterval="3000">
 
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="220dp"
             android:src="@drawable/women1" />
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="220dp"
             android:src="@drawable/women2" />
     </ViewFlipper>
 
@@ -75,7 +75,7 @@
     <Button
         android:id="@+id/diseasebtn"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:background="#FFC107"
         android:drawableLeft="@drawable/doctors"
         android:paddingBottom="16dp"
