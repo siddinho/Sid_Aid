@@ -84,7 +84,7 @@ public class Emergency extends AppCompatActivity implements OnMapReadyCallback, 
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         //Marshmellow Permission Check
         if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-            Toast.makeText(this, "GPS is Enabled in your devide\n\nFetching Current Co-ordinates Please Wait", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "GPS is Enabled in your device\n\nFetching Current Co-ordinates Please Wait", Toast.LENGTH_LONG).show();
         } else {
             showGPSDisabledAlertToUser();
         }

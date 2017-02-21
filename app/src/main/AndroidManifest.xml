@@ -28,7 +28,11 @@
             android:name=".Emergency"
             android:label="@string/title_activity_emergency"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".EditDetails"></activity>
+        <activity android:name=".EditDetails" />
+        <activity
+            android:name=".WaterReminder"
+            android:label="@string/title_activity_water_reminder"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

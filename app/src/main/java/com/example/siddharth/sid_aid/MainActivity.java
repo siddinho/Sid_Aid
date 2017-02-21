@@ -28,5 +28,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button WaterReminder = (Button) findViewById(R.id.reminderbtnbtn);
+        WaterReminder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, WaterReminder.class);
+                startActivity(i);
+
+            }
+        });
+
+
+
     }
 }
